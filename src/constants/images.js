@@ -3,8 +3,6 @@ import coffeeBean from '../assets/coffee-bean.png'
 import logo from '../assets/logo.png'
 import borderImg from '../assets/border_img.png'
 import bgCoffee from '../assets/bg__coffee.png'
-import burgundyBg from '../assets/gradient-lenses.jpeg'
-import bg from '../assets/bg.png'
 import gallery01 from '../assets/gallery01.jpg'
 import gallery02 from '../assets/gallery02.jpg'
 import gallery03 from '../assets/gallery03.jpg'
@@ -21,8 +19,6 @@ export default {
     logo,
     borderImg,
     bgCoffee,
-    burgundyBg,
-    bg,
     gallery01,
     gallery02,
     gallery03,

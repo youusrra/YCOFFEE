@@ -33,13 +33,14 @@ const Navbar = () => {
             <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
             <IoMdClose color="#AAAAAA" fontSize={22} className="overlay__close" onClick={() => setToggleMenu(false)}/>
             <ul className="app__navbar-smallscreen_links">
-              <li className="p__opensans"><a href="#home">Home</a></li>
-              <li className="p__opensans"><a href="#about">About</a></li>
-              <li className="p__opensans"><a href="#menu">Menu</a></li>
-              <li className="p__opensans"><a href="#contavt">Contact</a></li>
-              <li className="p__opensans"><a href="#discover">Discover</a></li>
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}><a href="#home">Home</a></li>
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}><a href="#about">About</a></li>
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}><a href="#menu">Menu</a></li>
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}><a href="#contavt">Contact</a></li>
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}><a href="#discover">Discover</a></li>
           </ul>
           </div>
+          
             )}
       </div>
     </nav>

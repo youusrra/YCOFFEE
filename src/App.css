@@ -110,7 +110,6 @@
 
 .headtext__cormorant {
   font-family: var(--font-base);
-  /* color: var(--color-beige);*/
   color: #c39a7a;
   font-size: 64px;
   line-height: 83.2px;
