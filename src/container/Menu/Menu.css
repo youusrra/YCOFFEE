@@ -1,0 +1,39 @@
+.app__menu {
+  background: var(--color-black);
+  flex-direction: column;
+}
+
+.app__menu-container {
+  flex-direction: column;
+  margin-top: 1.5rem;
+
+}
+
+.app__menu-items {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    place-items: center;
+    gap: 10px;
+    margin: 20px 0 0 110px;
+}
+
+
+@media screen and (max-width: 1250px) {
+   .app__menu-items {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+   }
+   .app__menu-container {
+    margin-left: 6rem;
+   }
+
+   .app__menu-container button {
+      margin-right: 80px;
+   }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --font-base: 'Cormorant', serif;
+    --font-alt: 'Open Sans', sans-serif;
+    
+    --color-burgundy: #590016;
+    --color-dark-burgundy: #260B0B;
+    --color-coffee: #c39a7a;
+    --color-black: #0C0C0C;
+    --color-beige: #E8E7E2;
+    --color-gray: #2b2a2a;
+    --color-grey: #AAAAAA;
+    --color-white: #FFFFFF;
+  }
+  
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+  
+  a {
+    color: unset;
+    text-decoration: none;
+  }
+  
+  .slide-bottom {
+    -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  @-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(-25%);
+              transform: translateY(-25%);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  
+  @keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(-25%);
+              transform: translateY(-25%);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }

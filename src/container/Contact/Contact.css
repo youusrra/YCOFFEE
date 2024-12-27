@@ -1,0 +1,54 @@
+.app__contact {
+    background: var(--color-black);
+    flex-direction: row;
+}
+
+.app__wrapper-info button {
+    margin-top: 2rem;
+}
+
+.app__contact-img {
+    width: 800px;
+    height: 580px;
+}
+
+.app__contact-img img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.border__container-contact{
+    position: absolute;
+    right: 2px;
+    width: 45%;
+  }
+  
+  .border__container-contact::before {
+    content: '';
+    position: absolute;
+    background-color: var(--color-dark-burgundy);
+    width: 400px;
+    height: 370px;
+    bottom: -35px;
+    left: 110px;
+  }
+  
+  .border__container-contact::after {
+    content: '';
+    position: absolute;
+    background-color: var(--color-dark-burgundy);
+    width: 400px;
+    height: 370px;
+    top: -35px;
+    right: 110px;
+    overflow: hidden;
+  }
+  
+  @media screen and (max-width: 1900px) {
+    .app__contact-img {
+      display: none;
+    }
+  }
